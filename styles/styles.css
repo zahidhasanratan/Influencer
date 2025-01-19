@@ -125,98 +125,130 @@ ul li {
   padding-bottom: 100px;
 }
 .populer_wrapper {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
 }
 .populer_wrapper .heading h6 {
-    color: #3A3A3A;
-    font-weight: 400;
-    font-size: 28px;
-    padding-bottom: 30px;
-    text-align: center;
-    font-family: "Poppins", serif;
+  color: #3a3a3a;
+  font-weight: 400;
+  font-size: 28px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: "Poppins", serif;
 }
 .card_wrapper {
-    display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
 }
-.card_container .card{
-      border-radius: 5px;
-      overflow: hidden;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      padding: 15px;
+.card_container .card {
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
 }
-.card_container .card img{
-    width: 100%;
-    padding-bottom: 16px;
+.card_container .card img {
+  width: 100%;
+  padding-bottom: 16px;
 }
-.card_container .card h6{
-    color: #18191F;
-    font-weight: 500;
-    font-size: 28px;
-    font-family: "Poppins", serif;
-    padding-bottom: 6px;
+.card_container .card h6 {
+  color: #18191f;
+  font-weight: 500;
+  font-size: 28px;
+  font-family: "Poppins", serif;
+  padding-bottom: 6px;
 }
-.card_container .card .price{
-    color: #18191F;
-    font-size: 24px;
-    font-family: "Inter", serif;
-    padding-bottom: 6px;
+.card_container .card .price {
+  color: #18191f;
+  font-size: 24px;
+  font-family: "Inter", serif;
+  padding-bottom: 6px;
 }
 .card_container .card .short {
-    color: #787885;
-    width: 75%;
-    font-size: 14px;
-    font-weight: bold;
-    font-family: "Inter", serif;
-    padding-bottom: 6px;
-    line-height: 180%;
+  color: #787885;
+  width: 75%;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Inter", serif;
+  padding-bottom: 6px;
+  line-height: 180%;
 }
-
 
 /*Populer Styling End*/
 
 /*Featured Styling Start*/
-#Featured{
-padding-bottom: 100px;
+#Featured {
+  padding-bottom: 100px;
 }
 #Featured .featured_wrapper {
-    display: flex;
-    column-gap: 96px;
+  display: flex;
+  column-gap: 96px;
 }
-#Featured .featured_content{
-
+#Featured .featured_content {
 }
-#Featured .featured_content h5{
-font-size: 35px;
-font-weight: bold;
-color: #0A0826;
-font-family: "Poppins", serif;
-margin-bottom: 16px;
+#Featured .featured_content h5 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #0a0826;
+  font-family: "Poppins", serif;
+  margin-bottom: 16px;
 }
-#Featured .featured_content h6{
-font-size: 16px;
-font-weight: bold;
-color: #6C6C6C;
-font-family: "Poppins", serif;
-margin-bottom: 16px;
+#Featured .featured_content h6 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #6c6c6c;
+  font-family: "Poppins", serif;
+  margin-bottom: 16px;
 }
-#Featured .featured_content button{
-    background-color: #E02C6D;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 10px 24px;
-    border: transparent;
+#Featured .featured_content button {
+  background-color: #e02c6d;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 24px;
+  border: transparent;
 }
-
 
 /*Featured Styling End*/
 
-/*Common Styling Start*/
-/*Common Styling End*/
+/*Footer Styling Start*/
+#footer{
+   background-color: black; 
+}
+.footer_wrapper {
+    padding-top: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer_wrapper h6{
+color: white;
+font-size: 24px;
+font-weight: bold;
+font-family: "Poppins", serif;
+padding-bottom: 10px;
+}
+.footer_wrapper .copyright{
+    color: white;
+font-size: 14px;
+font-family: "Poppins", serif;
+padding-bottom: 3px;
+}
+.footer_wrapper .allright{
+    color: white;
+font-size: 14px;
+font-family: "Poppins", serif;
+padding-bottom: 17px;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+}
+/*Footer Styling End*/
 
 /*Common Styling Start*/
 /*Common Styling End*/
