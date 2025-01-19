@@ -126,7 +126,6 @@ ul li {
 }
 .populer_wrapper {
     display: flex;
-    text-align: center;
     flex-direction: column;
     /* justify-content: center; */
 }
@@ -135,6 +134,7 @@ ul li {
     font-weight: 400;
     font-size: 28px;
     padding-bottom: 30px;
+    text-align: center;
     font-family: "Poppins", serif;
 }
 .card_wrapper {
@@ -177,6 +177,46 @@ ul li {
 
 
 /*Populer Styling End*/
+
+/*Featured Styling Start*/
+#Featured{
+padding-bottom: 100px;
+}
+#Featured .featured_wrapper {
+    display: flex;
+    column-gap: 96px;
+}
+#Featured .featured_content{
+
+}
+#Featured .featured_content h5{
+font-size: 35px;
+font-weight: bold;
+color: #0A0826;
+font-family: "Poppins", serif;
+margin-bottom: 16px;
+}
+#Featured .featured_content h6{
+font-size: 16px;
+font-weight: bold;
+color: #6C6C6C;
+font-family: "Poppins", serif;
+margin-bottom: 16px;
+}
+#Featured .featured_content button{
+    background-color: #E02C6D;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 24px;
+    border: transparent;
+}
+
+
+/*Featured Styling End*/
+
+/*Common Styling Start*/
+/*Common Styling End*/
 
 /*Common Styling Start*/
 /*Common Styling End*/
