@@ -75,7 +75,7 @@ ul li {
   justify-content: space-between;
 }
 #banner .content_wrapper {
-    width: 56%;
+  width: 56%;
 }
 #banner .content_wrapper h6 {
   color: #3a3a3a;
@@ -95,17 +95,88 @@ ul li {
   color: white;
   font-size: 16px;
   font-weight: bold;
-  background-color: #E02C6D;
+  background-color: #e02c6d;
   border-radius: 41px;
   padding: 10px 24px;
-  border:transparent;
+  border: transparent;
 }
-.image_wrapper{
-    width: 34%;
+.image_wrapper {
+  width: 34%;
 }
-.image_wrapper img{
-    width: 100%;
+.image_wrapper img {
+  width: 100%;
 }
 /*Common Banner End*/
+/*Banner Styling Start*/
+#clientLogo {
+  padding-bottom: 100px;
+}
+.client_logo_wrapper {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.client_logo_wrapper img {
+  padding: 36px 0;
+}
+/*Banner Styling End*/
+/*Populer Styling Start*/
+#populer {
+  padding-bottom: 100px;
+}
+.populer_wrapper {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.populer_wrapper .heading h6 {
+    color: #3A3A3A;
+    font-weight: 400;
+    font-size: 28px;
+    padding-bottom: 30px;
+    font-family: "Poppins", serif;
+}
+.card_wrapper {
+    display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+}
+.card_container .card{
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+}
+.card_container .card img{
+    width: 100%;
+    padding-bottom: 16px;
+}
+.card_container .card h6{
+    color: #18191F;
+    font-weight: 500;
+    font-size: 28px;
+    font-family: "Poppins", serif;
+    padding-bottom: 6px;
+}
+.card_container .card .price{
+    color: #18191F;
+    font-size: 24px;
+    font-family: "Inter", serif;
+    padding-bottom: 6px;
+}
+.card_container .card .short {
+    color: #787885;
+    width: 36%;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Inter", serif;
+    padding-bottom: 6px;
+    line-height: 180%;
+}
+
+
+/*Populer Styling End*/
+
 /*Common Styling Start*/
 /*Common Styling End*/
